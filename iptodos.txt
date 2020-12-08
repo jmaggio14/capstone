@@ -1,0 +1,35 @@
+more metadata accessible within block during runtime - `self.metadata['n_datums']` etc
+maybe a batch block is returning an array or list of arrays?
+shape checking - did you mean (None,)?
+
+
+check to make sure all update args are blocks - throw an error if otherwise'
+
+make this better:
+imagepypelines.core.Exceptions.BlockError: invalid type for 'sources'. must be <class 'astropy.table.table.Table'>, not <class 'NoneType'>. (you can disable this check with the 'skip_enforcement' keyword)
+
+
+constants in pipeline
+
+
+don't enforce parity on batch_type = all blocks
+
+
+
+more explict block argument errors
+
+
+better error message when a user misspells the name of a variable - instead of just "KeyError"
+
+name variable name there is an invalid container type.
+
+
+data inspection tool!
+
+
+"Type Incompatibility?" messages
+
+
+print what block will be computed next
+
+makes sure there no key error for block inputs
